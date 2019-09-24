@@ -20,3 +20,4 @@ sudo dnf config-manager --add-repo https://download.sublimetext.com/rpm/stable/x
 sudo dnf -y install sublime-text
 sudo systemctl enable sshd
 sudo systemctl start sshd
+sudo snap install telegram-desktop
