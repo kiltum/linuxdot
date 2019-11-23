@@ -14,6 +14,7 @@ sudo echo "search localdomain" > /etc/resolv.conf
 sudo echo "nameserver 127.0.0.1" >> /etc/resolv.conf
 # lets fill system by useful soft
 sudo dnf -y install snapd
+sudo systemctl start snapd
 sudo snap install bitwarden 
 # Sublime Text
 sudo dnf config-manager --add-repo https://download.sublimetext.com/rpm/stable/x86_64/sublime-text.repo
