@@ -31,3 +31,5 @@ systemctl start sshd
 # now snapd part
 snap install telegram-desktop
 snap install bitwarden 
+
+dnf -y install fira-code-fonts
